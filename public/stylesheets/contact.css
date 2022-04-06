@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+.navbar {
+  font-family: "TsukuARdGothic-Regular","メイリオ",sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+footer {
+  font-family: "TsukuARdGothic-Regular","メイリオ",sans-serif;
+}
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li.current a{
+  background-color: #000;
+}
+/* .container{
+  background-color:#4bd9ff;
+} */
+header h1{
+  font-size: 2.0em;
+  margin: 40px 0 30px 0;
+  text-align: center;
+}
+
+header nav ul{
+  width: 940px;
+  margin: 0 auto 30px auto;
+  padding-left: 0;
+  list-style-type: none;
+}
+header nav ul li{
+  float:left;
+  width:155px;
+  margin-right: 2px;
+  text-align: center;
+}
+header nav ul li:last-child{
+  margin-right: 0;
+
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#carouselExampleControls {
+  margin-bottom: 40px;
+}
+.navbar-brand a {
+  font-size:30em;
+}
+
+
+footer{
+  margin-top: 10px;
+  margin: 0 auto;
+  padding:15px 0 0 0;
+  text-align: center;
+  color:#fff;
+  background-color: black;
+}
+footer ul{
+  margin-bottom: 20px;
+}
+footer ul li{
+  display: inline;
+  padding-right: 10px;
+}
+footer ul li a{
+  color:#fff;
+}
+footer ul li a:link{
+  text-decoration: none;
+}
+footer ul li a:hover,
+footer ul li a:active{
+  text-decoration: underline;
+}
+
+main {
+  width:1200px;
+  margin-top: 150px;
+  height:1400px;
+}
+#main_content {
+  position:relative;
+  color: black;
+  margin-top: 150px;
+  margin-left: 50px;
+  width:1050px;
+}
+/* コンテンツっていう部分 */
+#main_content h1 {
+  font-size: 2.0em;
+  /* 緑枠からの距離 */
+  padding-left: 10px;
+  padding-bottom: 5px;
+  /* 緑枠の距離 */
+  border-bottom: 1px solid green;
+  border-left: 10px solid green;
+  /* 下の「お気軽に〜」までの距離 */
+  margin-bottom: 60px;
+}
+/* ここで「お気軽に〜」の文章を書いてる */
+#campaign p {
+  text-align: center;
+  font-size: 18px;
+  /* 外枠までの距離 */
+  margin-bottom: 80px;
+}
+
+
+
+/* 送信フォーム（外枠含む） */
+form {
+  /* margin-left: 100px; */
+  /* padding-left: 100px; */
+  width: 700px;
+  /* 外枠の角っこ */
+  border-radius: 5px;
+  /* 外枠を中心に指定 */
+  margin: 0 auto;
+  /* ここで外枠 */
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  /* 以下で外枠からの距離を指定している */
+  padding: 30px 30px;
+}
+
+.form-group {
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+.form-group label {
+  border-left: 5px solid green;
+  padding-left: 10px;
+}
+#form_content p {
+  font-size: 15px;
+}
+
+.btn {
+  /* margin: 30px auto 0 auto; */
+  text-align: center;
+  width: 100px;
+}
+.error-message {
+  color: #F51414;
+  font-size:30px;
+  height: 35px;
+}
+.message_teller {
+  color: #ff6347;
+};

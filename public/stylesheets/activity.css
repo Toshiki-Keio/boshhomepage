@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+.navbar {
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
+  /* ,"メイリオ",sans-serif */
+}
+.navbar-brand {
+  font-weight: bold;
+}
+footer {
+  font-family: "TsukuARdGothic-Regular",sans-serif;
+  /* ,"メイリオ" */
+}
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li.current a{
+  background-color: #000;
+}
+/* .container{
+  background-color: #4bd9ff;
+} */
+header h1{
+  font-size: 2.0em;
+  margin: 40px 0 30px 0;
+  text-align: center;
+}
+
+header nav ul{
+  width: 940px;
+  margin: 0 auto 30px auto;
+  padding-left: 0;
+  list-style-type: none;
+}
+header nav ul li{
+  float:left;
+  width:155px;
+  margin-right: 2px;
+  text-align: center;
+}
+header nav ul li:last-child{
+  margin-right: 0;
+
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#carouselExampleControls {
+  margin-bottom: 40px;
+}
+
+main {
+  height:1200px ;
+  width: 1200px;
+  margin-left: 100px;
+}
+
+#main_content {
+  color: black;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+#main_content h1 {
+  font-size: 2.0em;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid green;
+  border-left: 10px solid green;
+  margin-bottom: 40px;
+
+  /* font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 5px 10px;
+  text-align: left;
+  border-bottom: 1px solid green;
+  border-left: 10px solid green; */
+}
+
+#main_content dl{
+  font-size: 17px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+#main_content dl, dt {
+  float: left;
+  padding-right :15px;
+  padding-left: 10px;
+}
+#main_content dd {
+  padding: 35px;
+}
+#main_content dt {
+  padding: 35px;
+}
+
+.navbar-brand a {
+  font-size: 30em;
+}
+
+
+footer{
+  margin-top: 10px;
+  margin: 0 auto;
+  padding:15px 0 0 0;
+  text-align: center;
+  color:#fff;
+  background-color: black;
+}
+footer ul{
+  margin-bottom: 20px;
+}
+footer ul li{
+  display: inline;
+  padding-right: 10px;
+}
+footer ul li a{
+  color:#fff;
+}
+footer ul li a:link{
+  text-decoration: none;
+}
+footer ul li a:hover,
+footer ul li a:active{
+  text-decoration: underline;
+}
+
+.first_event {
+  position: absolute;
+  top:250px;
+  left: 750px;
+}
+.second_event {
+  position: absolute;
+  top: 420px;
+  left: 850px;
+}
+.jaxa_visit {
+  position: absolute;
+  top: 600px;
+  left: 950px
+}
+.jamstec_visit {
+  position: absolute;
+  top: 800px;
+  left: 940px;
+}
+.fourth_event { 
+  position :absolute;
+  top: 1000px;
+  left: 900px;
+}
+/*
+.first_event {
+  position: absolute;
+  top:150px;
+  left: 650px;
+}
+.second_event {
+  position: absolute;
+  top: 320px;
+  left: 750px;
+}
+.jaxa_visit {
+  position: absolute;
+  top: 510px;
+  left: 850px
+} */

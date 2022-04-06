@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+.navbar {
+  font-family: "TsukuARdGothic-Regular","メイリオ",sans-serif;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+footer {
+  font-family: "TsukuARdGothic-Regular","メイリオ",sans-serif;
+}
+header nav ul li a:hover,
+header nav ul li a:active,
+header nav ul li.current a{
+  background-color: #000;
+}
+.container{
+  /* background-color:#4bd9ff; */
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header h1{
+  font-size: 2.0em;
+  margin: 40px 0 30px 0;
+  text-align: center;
+}
+
+header nav ul{
+  width: 940px;
+  margin: 0 auto 30px auto;
+  padding-left: 0;
+  list-style-type: none;
+}
+header nav ul li{
+  float:left;
+  width:155px;
+  margin-right: 2px;
+  text-align: center;
+}
+header nav ul li:last-child{
+  margin-right: 0;
+
+}
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#carouselExampleControls {
+  margin-bottom: 40px;
+}
+.navbar-brand a {
+  font-size:30em;
+}
+main{
+  width:940px;
+  margin: 0 auto;
+  height :1000px;
+
+}
+/* .pro{
+  margin-top: 200px;
+}  */
+#campaign h1{
+
+      font-size: 2.0em;
+      padding-left: 10px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid green;
+      border-left: 10px solid green;
+      margin-bottom: 60px;
+}
+#main_content{
+  position: relative;
+    color: black;
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 1050px;
+}
+.memo{
+  /*border: thick double #00ff7f;*/
+  padding: 20px 60px;
+
+}
+
+.memo1{
+  float:right;
+  margin:50px 0px;
+
+}
+.section1{
+  margin:60px 20px;
+}
+
+.memo2{
+  float:left;
+  margin:50px 80px 50px 0px;
+
+}
+
+.section2{
+  margin:60px 20px;
+}
+
+.memo3{
+  float:right;
+  margin:50px 0px;
+}
+
+.section3{
+  margin:60px 20px;
+}
+footer{
+  margin-top: 10px;
+  margin: 0 auto;
+  padding:15px 0 0 0;
+  text-align: center;
+  color:#fff;
+  background-color: black;
+}
+footer ul{
+  margin-bottom: 20px;
+}
+footer ul li{
+  display: inline;
+  padding-right: 10px;
+}
+footer ul li a{
+  color:#fff;
+}
+footer ul li a:link{
+  text-decoration: none;
+}
+footer ul li a:hover,
+footer ul li a:active{
+  text-decoration: underline;
+}
